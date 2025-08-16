@@ -10,7 +10,7 @@ function ChatRooms() {
     {
       name: "Fun Chat",
       id: "Fun",
-      image: "/funchat_image.webp",
+      image: "/funchat_image.png",
       description: "Connect and chat with others about anything fun and interesting"
     },
     {
@@ -60,7 +60,7 @@ function ChatRooms() {
           </div>
           <div className="flex items-center gap-2">
             <a
-              href="https://github.com/Rahul-Aitla"
+              href="https://github.com/Rahul-Aitla/Open-Chat"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub repository"
