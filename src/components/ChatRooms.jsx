@@ -5,7 +5,6 @@ function ChatRooms() {
   const navigate = useNavigate();
   const [hoveredRoom, setHoveredRoom] = useState(null);
 
-
   const rooms = [
     {
       name: "Fun Chat",
@@ -74,9 +73,7 @@ function ChatRooms() {
         </div>
       </header>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* (Hero removed per request) */}
-
-        {/* Featured Room Banner */}
+        {/* Hero Section */}
         <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white relative border border-gray-800">
           <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px]"></div>
           <div className="relative p-8 flex flex-col lg:flex-row items-center gap-8">
