@@ -127,7 +127,8 @@ function ChatRooms() {
                       Join Room
                     </button>
                   </div>
-                </div>              </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
